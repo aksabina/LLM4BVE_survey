@@ -105,3 +105,9 @@ cython_debug/
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+raw_data.xlsx
+preprocessing.py
+constants.py
+utils.py
+main.py

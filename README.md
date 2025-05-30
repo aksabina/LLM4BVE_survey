@@ -11,15 +11,7 @@ Make sure you have Python and pip installed. Then install all required packages:
 pip install -r requirements.txt
 ```
 
-## 2. Preprocess the Data
-
-To preprocess the data and convert it into the required format, run the following command:
-
-```bash
-python main.py
-```
-
-## 3. Generate Plots
+## 2. Generate Plots
 
 Open the Jupyter notebook provided in the project (stats.ipynb) and run it **cell by cell** to reproduce the plots:
 

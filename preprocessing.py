@@ -36,6 +36,7 @@ def preprocess_raw_data(input_filename, output_filename):
     df = df.rename(columns=rename_columns)
     # drop the column name because it does not contain any information
     df = df.drop(columns="name")
+    df = df.drop(columns="email")
     # add a column to sort out incomplete answers later if needed
     df['completed'] = df['time_completed'].apply(lambda x: 1 if pd.notna(x) and str(x).strip() != '' else 0)
     # drop test data (and one record without any answers)
