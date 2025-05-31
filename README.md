@@ -20,7 +20,8 @@ jupyter notebook
 ```
 
 > You can also refer to the PDF version of the notebook if you prefer not to run it interactively (stats.pdf).
-
+> The plots are stored in the "plots" folder
+> The "stats_per_category" contains csv files with descriptive statistics per SUT per evaluation category (clarity, completeness, correctness, usefulness)
 ---
 
 If you encounter any issues, ensure your environment matches the dependencies listed in `requirements.txt`.
